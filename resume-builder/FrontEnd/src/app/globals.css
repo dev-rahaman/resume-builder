@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-border {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+.custom-border:hover {
+  border: 2px solid rgb(183, 0, 255);
+}
+
+textarea:focus,
+input:focus,
+p[contentEditable="true"]:focus {
+  border: 2px solid rgb(183, 0, 255);
+  outline: none;
+}
+
+.custom-field {
+  overflow: hidden;
+}
+
+input,
+textarea {
+  background-color: transparent;
+}
+
+.main-image {
+  transform: rotate(-10deg);
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid rgb(183, 0, 255);
+}
